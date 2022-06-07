@@ -1,6 +1,7 @@
 FROM ubuntu
 
-ENV VERSION=1.4.3
+ENV VERSION=1.7.0
+
 
 RUN apt-get update && \
     apt-get install -y \
